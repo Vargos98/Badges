@@ -18,6 +18,7 @@ const Order = () => {
                 <BiSearch/>
                 <input type="text" className='input-in' placeholder=' Search for restaurants, cuisine or a dish' />
             </div>
+            const auth = auth ? <IsloggedIn/> : <Logout/>
         </div>
 
     </div>
